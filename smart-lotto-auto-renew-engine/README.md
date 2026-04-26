@@ -103,9 +103,9 @@ To ensure 100% test coverage, I defined four primary logic scenarios to guide de
 
 | Scenario | User Condition | Expected System Flow |
 | :--- | :--- | :--- |
-| **1. Shortfall** | 10 balance for 30 ticket. | Prompt for 20 top-up initially; ensure future top-ups pull the full 30 when the next draw activates. |
-| **2. Precise Balance** | 10 balance for 10 ticket. | Enable Auto-Top-Up in the background automatically so the next renewal doesn't fail. |
-| **3. Surplus Balance** | 20 balance for 5 ticket. | Use wallet balance for the first 4 draws; trigger Auto-Top-Up only when the balance becomes insufficient. |
+| **1. Shortfall** | €10 balance for €30 ticket. | Prompt for €20 top-up initially; ensure future top-ups pull the full €30 when the next draw activates. |
+| **2. Precise Balance** | €10 balance for €10 ticket. | Enable Auto-Top-Up in the background automatically so the next renewal doesn't fail. |
+| **3. Surplus Balance** | €20 balance for €5 ticket. | Use wallet balance for the first 4 draws; trigger Auto-Top-Up only when the balance becomes insufficient on 5th draw. |
 | **4. Subscription Change** | Disabling 2 out of 3 active tickets. | Dynamically reduce the top-up amount to match only the remaining active ticket. |
 
 ## 4. QA & Business Impact
